@@ -1,0 +1,32 @@
+.navbar {
+	padding: 24px 0;
+	border: 1px solid #E6E6E6;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+	}
+}
+.logo {
+}
+.navigation {
+	display: flex;
+	gap: 40px;
+
+	&__list-item {
+		&_link {
+			color: #48555b;
+			text-align: center;
+			font-family: Open Sans Bold;
+			font-size: 12px;
+			font-weight: 600;
+			letter-spacing: 1.091px;
+			transition: 0.2s;
+
+			&:hover{
+				color: #00A4E5;
+			}
+		}
+	}
+}

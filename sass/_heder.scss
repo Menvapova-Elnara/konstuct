@@ -1,0 +1,40 @@
+.heder {
+
+	&__wrapper {
+		background-image: url(../img/bg.png);
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		height: 100vh;
+	}
+
+	&__wrapper-logo {
+    margin: 45px 0 390px 0;
+	}
+
+	&__wrapper-description {
+		
+		color: #fff;
+
+		&_title {
+			font-family: Bebas Neue Bold;
+			font-size: 60px;
+			font-weight: 400;
+			letter-spacing: 5.709px;
+		}
+
+		&_text {
+			font-family: Open Sans Bold;
+			font-size: 16px;
+			font-weight: 600;
+			margin-bottom: 320px;
+		}
+
+		&_scroll {
+			font-family: Open Sans Bold;
+			font-size: 11px;
+			font-weight: 600;
+			letter-spacing: 3.7px;
+		}
+	}
+}

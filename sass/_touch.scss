@@ -1,0 +1,26 @@
+.touch {
+  background-image: url(../img/bg2.png);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0 231px 0;
+text-align: center;
+font-family: Open Sans Bold;
+
+		&__title {
+      color: #48555B;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px; /* 120% */
+letter-spacing: 0.15px;
+margin-bottom: 35px;
+		}
+
+		&__button {
+      color: #FFF;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 0.5px;
+padding: 11px 26px;
+background: #00A4E5;
+		}
+}

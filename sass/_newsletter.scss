@@ -1,0 +1,46 @@
+.newsletter {
+	background-color: #171819;
+	font-family: Open Sans Bold;
+
+	&__wrapper {
+    padding: 30px 0;
+		display: flex;
+    align-items: center;
+    justify-content: center;
+
+		&-title {
+			color: #fff;
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: 0.846px;
+      margin-right: 70px;
+		}
+
+		&-email {
+			border: 1px solid #979797;
+			background-color: #fff;
+			padding: 11px 98px 10px 16px;
+		
+
+			&::placeholder {
+				color: #171819;
+				font-size: 14px;
+				font-weight: 400;
+				letter-spacing: 0.07px;
+			}
+		}
+
+		&-button {
+			color: #fff;
+			text-align: center;
+			font-family: OpenSans;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			letter-spacing: 0.5px;
+			padding: 11px 49px;
+			background-color: #00a4e5;
+		}
+	}
+}

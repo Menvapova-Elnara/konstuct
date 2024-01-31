@@ -1,0 +1,90 @@
+.footer {
+	background-color: #141a20;
+	padding: 42px 0;
+	color: #fff;
+	font-family: Open Sans Bold;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.846px;
+
+	&__company {
+		display: flex;
+		flex-direction: column;
+		max-width: 30%;
+
+		&-logo {
+			width: 102px;
+			height: 23px;
+			margin: 19px 0 15px 0;
+		}
+
+		&-description {
+			line-height: 19px;
+		}
+	}
+
+	&__links {
+		max-width: 30%;
+
+		&-subtitle {
+			margin-bottom: 15px;
+		}
+
+		&-item {
+			display: flex;
+			gap: 20px;
+
+			&_navigation {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				.footer-navigation__list {
+					display: flex;
+					flex-direction: column;
+					gap: 15px;
+
+					&-item_link {
+						color: #fff;
+            transition: 0.2s;
+
+						&:hover {
+							color: #00a4e5;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__contact {
+		max-width: 30%;
+
+		&-subtitle {
+			margin-bottom: 15px;
+		}
+
+		&-item {
+			display: flex;
+			gap: 30px;
+
+			&_left {
+				display: flex;
+				flex-direction: column;
+				max-width: 50%;
+				gap: 15px;
+			}
+
+			&_right {
+				display: flex;
+				max-width: 50%;
+				gap: 10px;
+			}
+		}
+	}
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
